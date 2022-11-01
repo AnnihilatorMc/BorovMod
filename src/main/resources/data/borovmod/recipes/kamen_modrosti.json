@@ -2,19 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "bab",
-    "aba",
+    "aca",
     "bab"
   ],
   "key": {
     "a": {
-      "item": "minecraft:blue_dye"
+      "item": "minecraft:glowstone_dust"
     },
     "b": {
-      "item": "minecraft:stone"
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:glass"
     }
   },
   "result": {
     "item": "borovmod:kamen_modrosti",
-    "count": 4
+    "count": 1
   }
 }
