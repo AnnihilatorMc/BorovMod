@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "borovmod:zelje"
+    },
+    "b": {
+      "item": "minecraft:beef"
+    }
+  },
+  "result": {
+    "item": "borovmod:surova_sarma"
+  }
+}
