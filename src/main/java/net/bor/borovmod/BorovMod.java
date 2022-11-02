@@ -1,6 +1,7 @@
 package net.bor.borovmod;
 
 import com.mojang.logging.LogUtils;
+import net.bor.borovmod.block.ModBlocks;
 import net.bor.borovmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class BorovMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

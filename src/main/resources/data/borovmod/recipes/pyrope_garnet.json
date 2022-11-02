@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "borovmod:pyrope_garnet_block"
+    }
+  ],
+  "result": {
+    "item": "borovmod:pyrope_garnet",
+    "count": 9
+  }
+}

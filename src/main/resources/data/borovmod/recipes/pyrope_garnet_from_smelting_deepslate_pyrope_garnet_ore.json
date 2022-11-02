@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "borovmod:deepslate_pyrope_garnet_ore"
+  },
+  "result": "borovmod:pyrope_garnet",
+  "experience": 2,
+  "cookingtime": 200
+}

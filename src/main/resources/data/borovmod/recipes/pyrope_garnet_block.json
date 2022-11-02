@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "borovmod:pyrope_garnet"
+    }
+  },
+  "result": {
+    "item": "borovmod:pyrope_garnet_block",
+    "count": 1
+  }
+}
