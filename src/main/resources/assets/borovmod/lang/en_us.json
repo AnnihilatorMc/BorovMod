@@ -4,10 +4,18 @@
   "item.borovmod.zelje": "Cabbage",
   "item.borovmod.kamen_modrosti": "Philosopher's Stone",
   "item.borovmod.pyrope_garnet": "Pyrope Garnet",
+  "item.borovmod.pyrope_garnet_detector": "Pyrope Garnet Detector",
 
   "block.borovmod.pyrope_garnet_ore": "Pyrope Garnet Ore",
   "block.borovmod.pyrope_garnet_block": "Pyrope Garnet Block",
   "block.borovmod.deepslate_pyrope_garnet_ore": "Deepslate Pyrope Garnet Ore",
 
-  "itemGroup.balkan_tab": "BALKAN TAB"
+  "itemGroup.balkan_tab": "BALKAN TAB",
+
+  "tooltip.borovmod.pyrope_garnet_detector.tooltip": "§7§oHold §r§e[§fShift§e]§r §7§ofor more information",
+  "tooltip.borovmod.pyrope_garnet_detector.tooltip.shift": "§7§oDetects Pyrope Garnets below clicked block",
+  "item.borovmod.pyrope_garnet_detector.garnet_not_found": "Nothing of Interest",
+  "item.borovmod.pyrope_garnet_detector.garnet_found": "Detector Found Rare Minerals Under This Block",
+
+  "tooltip.borovmod.sarma.tooltip": "§6§o§l§nFood form of Balkan Perfection"
 }

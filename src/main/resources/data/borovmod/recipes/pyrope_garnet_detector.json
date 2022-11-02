@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bab",
+    "aca",
+    "bad"
+  ],
+  "key": {
+    "a": {
+      "item": "borovmod:pyrope_garnet"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "borovmod:kamen_modrosti"
+    },
+    "d": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "borovmod:pyrope_garnet_detector",
+    "count": 1
+  }
+}
