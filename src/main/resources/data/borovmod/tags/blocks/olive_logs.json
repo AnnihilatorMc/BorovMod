@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "borovmod:olive_log",
+    "borovmod:olive_wood",
+    "borovmod:stripped_olive_log",
+    "borovmod:stripped_olive_wood"
+  ]
+}

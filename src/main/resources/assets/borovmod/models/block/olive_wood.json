@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "borovmod:block/olive_log",
+    "side": "borovmod:block/olive_log"
+  }
+}
