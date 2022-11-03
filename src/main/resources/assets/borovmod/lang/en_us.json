@@ -14,6 +14,10 @@
   "block.borovmod.stripped_olive_log": "Stripped Olive Log",
   "block.borovmod.stripped_olive_wood": "Stripped Olive Wood",
   "block.borovmod.olive_planks": "Olive Planks",
+  "block.borovmod.olive_stairs": "Olive Stairs",
+  "block.borovmod.olive_slab": "Olive Slab",
+  "block.borovmod.olive_fence": "Olive Fence",
+  "block.borovmod.olive_fence_gate": "Olive Fence Gate",
 
   "itemGroup.balkan_tab": "BALKAN TAB",
 
@@ -22,5 +26,5 @@
   "item.borovmod.pyrope_garnet_detector.garnet_not_found": "Nothing of Interest",
   "item.borovmod.pyrope_garnet_detector.garnet_found": "Detector Found Rare Minerals Under This Block",
 
-  "tooltip.borovmod.sarma.tooltip": "§6§o§l§Perfection"
+  "tooltip.borovmod.sarma.tooltip": "§7§oFinal boss of balkan foods"
 }

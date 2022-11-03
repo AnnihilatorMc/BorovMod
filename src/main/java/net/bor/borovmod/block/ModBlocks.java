@@ -10,8 +10,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -57,6 +56,23 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OLIVE_PLANKS = registerBlockThatIsAlsoFuel("olive_planks",
             () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
+            ModCreativeModeTab.BALKAN_TAB, 300);
+
+    public static final RegistryObject<Block> OLIVE_STAIRS = registerBlockThatIsAlsoFuel("olive_stairs",
+            () -> new StairBlock(() -> ModBlocks.OLIVE_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)),
+            ModCreativeModeTab.BALKAN_TAB, 300);
+
+    public static final RegistryObject<Block> OLIVE_SLAB = registerBlockThatIsAlsoFuel("olive_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
+            ModCreativeModeTab.BALKAN_TAB, 150);
+
+    public static final RegistryObject<Block> OLIVE_FENCE = registerBlockThatIsAlsoFuel("olive_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
+            ModCreativeModeTab.BALKAN_TAB, 300);
+
+    public static final RegistryObject<Block> OLIVE_FENCE_GATE = registerBlockThatIsAlsoFuel("olive_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
 
