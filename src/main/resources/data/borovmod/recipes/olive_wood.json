@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "borovmod:olive_log"
+    }
+  },
+  "result": {
+    "item": "borovmod:olive_wood",
+    "count": 3
+  }
+}
