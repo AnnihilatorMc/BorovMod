@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    " W",
+    " W"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:gems/pyrope_garnet"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "borovmod:pyrope_garnet_hoe",
+    "count": 1
+  }
+}

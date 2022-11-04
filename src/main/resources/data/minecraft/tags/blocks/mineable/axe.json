@@ -1,6 +1,30 @@
 {
   "replace": false,
   "values": [
+    "borovmod:fig_log",
+    "borovmod:stripped_fig_log",
+    "borovmod:fig_wood",
+    "borovmod:stripped_fig_wood",
+    "borovmod:fig:stairs",
+    "borovmod:fig_slab",
+    "borovmod:fig_fence",
+    "borovmod:fig_fence_gate",
+    "borovmod:fig_door",
+    "borovmod:fig_trapdoor",
+    "borovmod:fig_button",
+    "borovmod:fig_pressure_plate",
 
+    "borovmod:olive_log",
+    "borovmod:stripped_olive_log",
+    "borovmod:olive_wood",
+    "borovmod:stripped_olive_wood",
+    "borovmod:olive:stairs",
+    "borovmod:olive_slab",
+    "borovmod:olive_fence",
+    "borovmod:olive_fence_gate",
+    "borovmod:olive_door",
+    "borovmod:olive_trapdoor",
+    "borovmod:olive_button",
+    "borovmod:olive_pressure_plate"
   ]
 }

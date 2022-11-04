@@ -3,8 +3,7 @@ package net.bor.borovmod.item;
 import net.bor.borovmod.BorovMod;
 import net.bor.borovmod.item.custom.PyropeGarnetDetectorItem;
 import net.bor.borovmod.item.custom.SarmaItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -32,6 +31,32 @@ public class ModItems {
 
     public static final RegistryObject<Item> PYROPE_GARNET_DETECTOR = ITEMS.register("pyrope_garnet_detector",
             () -> new PyropeGarnetDetectorItem(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).durability(64)));
+
+    public static final RegistryObject<Item> PYROPE_GARMET_SWORD = ITEMS.register("pyrope_garnet_sword.json",
+            () -> new SwordItem(ModTiers.PYROPE_GARNET, 2, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
+
+    public static final RegistryObject<Item> PYROPE_GARMET_PICKAXE = ITEMS.register("pyrope_garnet_pickaxe",
+            () -> new PickaxeItem(ModTiers.PYROPE_GARNET, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
+
+    public static final RegistryObject<Item> PYROPE_GARMET_AXE = ITEMS.register("pyrope_garnet_axe",
+            () -> new AxeItem(ModTiers.PYROPE_GARNET, 3, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
+
+    public static final RegistryObject<Item> PYROPE_GARMET_SHOVEL = ITEMS.register("pyrope_garnet_shovel",
+            () -> new ShovelItem(ModTiers.PYROPE_GARNET, 1, 1f,
+                    new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
+
+    public static final RegistryObject<Item> PYROPE_GARMET_HOE = ITEMS.register("pyrope_garnet_hoe",
+            () -> new HoeItem(ModTiers.PYROPE_GARNET, 0, 4f,
+                    new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
+
+    public static final RegistryObject<Item> OLIVE = ITEMS.register("olive",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).food(ModFoods.OLIVE)));
+
+    public static final RegistryObject<Item> FIG = ITEMS.register("fig",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).food(ModFoods.FIG)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

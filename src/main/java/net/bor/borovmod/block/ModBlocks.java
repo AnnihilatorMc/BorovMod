@@ -38,111 +38,114 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.BALKAN_TAB);
 
+
     public static final RegistryObject<Block> OLIVE_LOG = registerBlockThatIsAlsoFuel("olive_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> STRIPPED_OLIVE_LOG = registerBlockThatIsAlsoFuel("stripped_olive_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_WOOD = registerBlockThatIsAlsoFuel("olive_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> STRIPPED_OLIVE_WOOD = registerBlockThatIsAlsoFuel("stripped_olive_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_PLANKS = registerBlockThatIsAlsoFuel("olive_planks",
-            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0f)),
+            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_STAIRS = registerBlockThatIsAlsoFuel("olive_stairs",
             () -> new StairBlock(() -> ModBlocks.OLIVE_PLANKS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).strength(2.0f)),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_SLAB = registerBlockThatIsAlsoFuel("olive_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 150);
 
     public static final RegistryObject<Block> OLIVE_FENCE = registerBlockThatIsAlsoFuel("olive_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_FENCE_GATE = registerBlockThatIsAlsoFuel("olive_fence_gate",
-            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_BUTTON = registerBlockThatIsAlsoFuel("olive_button",
-            () -> new WoodButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).strength(2.0f)),
+            () -> new WoodButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON)),
             ModCreativeModeTab.BALKAN_TAB, 100);
 
     public static final RegistryObject<Block> OLIVE_PRESSURE_PLATE = registerBlockThatIsAlsoFuel("olive_pressure_plate",
-            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).strength(2.0f)),
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_DOOR = registerBlockThatIsAlsoFuel("olive_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).strength(2.0f)),
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR)),
             ModCreativeModeTab.BALKAN_TAB, 200);
 
     public static final RegistryObject<Block> OLIVE_TRAPDOOR = registerBlockThatIsAlsoFuel("olive_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR).strength(2.0f)),
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
+
     public static final RegistryObject<Block> FIG_LOG = registerBlockThatIsAlsoFuel("fig_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> STRIPPED_FIG_LOG = registerBlockThatIsAlsoFuel("stripped_fig_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_WOOD = registerBlockThatIsAlsoFuel("fig_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> STRIPPED_FIG_WOOD = registerBlockThatIsAlsoFuel("stripped_fig_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).strength(2.0f)),
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_PLANKS = registerBlockThatIsAlsoFuel("fig_planks",
-            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).strength(2.0f)),
+            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_STAIRS = registerBlockThatIsAlsoFuel("fig_stairs",
             () -> new StairBlock(() -> ModBlocks.FIG_PLANKS.get().defaultBlockState(),
-                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS).strength(2.0f)),
+                    BlockBehaviour.Properties.copy(Blocks.OAK_STAIRS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_SLAB = registerBlockThatIsAlsoFuel("fig_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 150);
 
     public static final RegistryObject<Block> FIG_FENCE = registerBlockThatIsAlsoFuel("fig_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_FENCE_GATE = registerBlockThatIsAlsoFuel("fig_fence_gate",
-            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB).strength(2.0f)),
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SLAB)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_BUTTON = registerBlockThatIsAlsoFuel("fig_button",
-            () -> new WoodButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).strength(2.0f)),
+            () -> new WoodButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON)),
             ModCreativeModeTab.BALKAN_TAB, 100);
 
     public static final RegistryObject<Block> FIG_PRESSURE_PLATE = registerBlockThatIsAlsoFuel("fig_pressure_plate",
-            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).strength(2.0f)),
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_DOOR = registerBlockThatIsAlsoFuel("fig_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR).strength(2.0f)),
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_DOOR)),
             ModCreativeModeTab.BALKAN_TAB, 200);
 
     public static final RegistryObject<Block> FIG_TRAPDOOR = registerBlockThatIsAlsoFuel("fig_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR).strength(2.0f)),
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR)),
             ModCreativeModeTab.BALKAN_TAB, 300);
+
 
     private static <T extends Block> RegistryObject<T> registerBlockThatIsAlsoFuel(String name, Supplier<T> block,
                                                                                         CreativeModeTab tab, int burnTime) {
