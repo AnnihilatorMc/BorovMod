@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "borovmod:fig_planks"
+    }
+  ],
+  "result": {
+    "item": "borovmod:fig_button",
+    "count": 1
+  }
+}

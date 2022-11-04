@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#borovmod:olive_logs"
+    "#borovmod:olive_logs",
+    "#borovmod:fig_logs"
   ]
 }

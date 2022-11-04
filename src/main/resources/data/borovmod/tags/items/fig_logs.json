@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "borovmod:fig_log",
+    "borovmod:fig_wood",
+    "borovmod:stripped_fig_log",
+    "borovmod:stripped_fig_wood"
+  ]
+}

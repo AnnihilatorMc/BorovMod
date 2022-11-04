@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "borovmod:fig_log"
+    }
+  },
+  "result": {
+    "item": "borovmod:fig_wood",
+    "count": 3
+  }
+}

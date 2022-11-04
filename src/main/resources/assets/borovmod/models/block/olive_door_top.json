@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "borovmod:block/olive_door_top",
+    "bottom": "borovmod:block/olive_door_bottom"
+  }
+}

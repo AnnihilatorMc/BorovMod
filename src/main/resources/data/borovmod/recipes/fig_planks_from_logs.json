@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "borovmod:fig_logs"
+    }
+  ],
+  "result": {
+    "item": "borovmod:fig_planks",
+    "count": 4
+  }
+}

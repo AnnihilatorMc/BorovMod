@@ -6,25 +6,56 @@
   "item.borovmod.pyrope_garnet": "Pyrope Garnet",
   "item.borovmod.pyrope_garnet_detector": "Pyrope Garnet Detector",
 
+
+
   "block.borovmod.pyrope_garnet_ore": "Pyrope Garnet Ore",
   "block.borovmod.pyrope_garnet_block": "Pyrope Garnet Block",
   "block.borovmod.deepslate_pyrope_garnet_ore": "Deepslate Pyrope Garnet Ore",
+
   "block.borovmod.olive_log": "Olive Log",
   "block.borovmod.olive_wood": "Olive Wood",
   "block.borovmod.stripped_olive_log": "Stripped Olive Log",
   "block.borovmod.stripped_olive_wood": "Stripped Olive Wood",
   "block.borovmod.olive_planks": "Olive Planks",
+
   "block.borovmod.olive_stairs": "Olive Stairs",
   "block.borovmod.olive_slab": "Olive Slab",
   "block.borovmod.olive_fence": "Olive Fence",
   "block.borovmod.olive_fence_gate": "Olive Fence Gate",
 
+  "block.borovmod.olive_button": "Olive Button",
+  "block.borovmod.olive_pressure_plate": "Olive Pressure Plate",
+  "block.borovmod.olive_door": "Olive Door",
+  "block.borovmod.olive_trapdoor": "Olive Trapdoor",
+
+  "block.borovmod.fig_log": "Fig Log",
+  "block.borovmod.fig_wood": "Fig Wood",
+  "block.borovmod.stripped_fig_log": "Stripped Fig Log",
+  "block.borovmod.stripped_fig_wood": "Stripped Fig Wood",
+  "block.borovmod.fig_planks": "Fig Planks",
+
+  "block.borovmod.fig_stairs": "Fig Stairs",
+  "block.borovmod.fig_slab": "Fig Slab",
+  "block.borovmod.fig_fence": "Fig Fence",
+  "block.borovmod.fig_fence_gate": "Fig Fence Gate",
+
+  "block.borovmod.fig_button": "Fig Button",
+  "block.borovmod.fig_pressure_plate": "Fig Pressure Plate",
+  "block.borovmod.fig_door": "Fig Door",
+  "block.borovmod.fig_trapdoor": "Fig Trapdoor",
+
+
+
   "itemGroup.balkan_tab": "BALKAN TAB",
+
+
 
   "tooltip.borovmod.pyrope_garnet_detector.tooltip": "§7§oHold §r§e[§fShift§e]§r §7§ofor more information",
   "tooltip.borovmod.pyrope_garnet_detector.tooltip.shift": "§7§oDetects Pyrope Garnets below clicked block",
   "item.borovmod.pyrope_garnet_detector.garnet_not_found": "Nothing of Interest",
   "item.borovmod.pyrope_garnet_detector.garnet_found": "Detector Found Rare Minerals Under This Block",
+
+
 
   "tooltip.borovmod.sarma.tooltip": "§7§oFinal boss of balkan foods"
 }

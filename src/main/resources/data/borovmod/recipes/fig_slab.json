@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "borovmod:fig_planks"
+    }
+  },
+  "result": {
+    "item": "borovmod:fig_slab",
+    "count": 6
+  }
+}

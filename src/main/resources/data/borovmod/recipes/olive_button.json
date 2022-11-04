@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "borovmod:olive_planks"
+    }
+  ],
+  "result": {
+    "item": "borovmod:olive_button",
+    "count": 1
+  }
+}
