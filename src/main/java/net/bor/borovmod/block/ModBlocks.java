@@ -2,9 +2,13 @@ package net.bor.borovmod.block;
 
 import net.bor.borovmod.BorovMod;
 import net.bor.borovmod.block.custom.ModFlammableRotatedPillarBlock;
-import net.bor.borovmod.block.custom.ModPlanks;
+import net.bor.borovmod.block.custom.ModFlammableBlocks;
+import net.bor.borovmod.block.custom.ModLeaves;
 import net.bor.borovmod.item.ModCreativeModeTab;
 import net.bor.borovmod.item.ModItems;
+import net.bor.borovmod.world.feature.tree.FigTreeGrower;
+import net.bor.borovmod.world.feature.tree.OliveTreeGrower;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -56,7 +60,7 @@ public class ModBlocks {
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_PLANKS = registerBlockThatIsAlsoFuel("olive_planks",
-            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
+            () -> new ModFlammableBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> OLIVE_STAIRS = registerBlockThatIsAlsoFuel("olive_stairs",
@@ -110,7 +114,7 @@ public class ModBlocks {
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_PLANKS = registerBlockThatIsAlsoFuel("fig_planks",
-            () -> new ModPlanks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
+            () -> new ModFlammableBlocks(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
     public static final RegistryObject<Block> FIG_STAIRS = registerBlockThatIsAlsoFuel("fig_stairs",
@@ -146,6 +150,34 @@ public class ModBlocks {
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_TRAPDOOR)),
             ModCreativeModeTab.BALKAN_TAB, 300);
 
+    public static final RegistryObject<Block> BALKAN_ROSE = registerBlock("balkan_rose",
+            () -> new FlowerBlock(MobEffects.LUCK, 10,
+                    BlockBehaviour.Properties.copy(Blocks.POPPY)), ModCreativeModeTab.BALKAN_TAB);
+
+    public static final RegistryObject<Block> POTTED_BALKAN_ROSE = registerBlockWithoutBlockItem("potted_balkan_rose",
+            () -> new FlowerPotBlock(null, ModBlocks.BALKAN_ROSE,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_POPPY)));
+
+    public static final RegistryObject<Block> OLIVE_LEAVES = registerBlock("olive_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)),
+            ModCreativeModeTab.BALKAN_TAB);
+
+    public static final RegistryObject<Block> OLIVE_SAPLING = registerBlockThatIsAlsoFuel("olive_sapling",
+            () -> new SaplingBlock(new OliveTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
+            ModCreativeModeTab.BALKAN_TAB, 200);
+
+    public static final RegistryObject<Block> FIG_LEAVES = registerBlock("fig_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)),
+            ModCreativeModeTab.BALKAN_TAB);
+
+    public static final RegistryObject<Block> FIG_SAPLING = registerBlockThatIsAlsoFuel("fig_sapling",
+            () -> new SaplingBlock(new FigTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
+            ModCreativeModeTab.BALKAN_TAB, 200);
+
+
+    private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
+        return BLOCKS.register(name, block);
+    }
 
     private static <T extends Block> RegistryObject<T> registerBlockThatIsAlsoFuel(String name, Supplier<T> block,
                                                                                         CreativeModeTab tab, int burnTime) {

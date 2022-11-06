@@ -32,7 +32,7 @@ public class ModItems {
     public static final RegistryObject<Item> PYROPE_GARNET_DETECTOR = ITEMS.register("pyrope_garnet_detector",
             () -> new PyropeGarnetDetectorItem(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).durability(64)));
 
-    public static final RegistryObject<Item> PYROPE_GARMET_SWORD = ITEMS.register("pyrope_garnet_sword.json",
+    public static final RegistryObject<Item> PYROPE_GARMET_SWORD = ITEMS.register("pyrope_garnet_sword",
             () -> new SwordItem(ModTiers.PYROPE_GARNET, 2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB)));
 

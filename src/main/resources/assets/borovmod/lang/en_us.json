@@ -30,27 +30,32 @@
   "block.borovmod.olive_slab": "Olive Slab",
   "block.borovmod.olive_fence": "Olive Fence",
   "block.borovmod.olive_fence_gate": "Olive Fence Gate",
-
   "block.borovmod.olive_button": "Olive Button",
   "block.borovmod.olive_pressure_plate": "Olive Pressure Plate",
   "block.borovmod.olive_door": "Olive Door",
   "block.borovmod.olive_trapdoor": "Olive Trapdoor",
+  "block.borovmod.olive_leaves": "Olive Leaves",
+  "block.borovmod.olive_sapling": "Olive Sapling",
 
   "block.borovmod.fig_log": "Fig Log",
   "block.borovmod.fig_wood": "Fig Wood",
   "block.borovmod.stripped_fig_log": "Stripped Fig Log",
   "block.borovmod.stripped_fig_wood": "Stripped Fig Wood",
   "block.borovmod.fig_planks": "Fig Planks",
-
   "block.borovmod.fig_stairs": "Fig Stairs",
   "block.borovmod.fig_slab": "Fig Slab",
   "block.borovmod.fig_fence": "Fig Fence",
   "block.borovmod.fig_fence_gate": "Fig Fence Gate",
+  "block.borovmod.fig_leaves": "Fig Leaves",
+  "block.borovmod.fig_sapling": "Fig Sapling",
 
   "block.borovmod.fig_button": "Fig Button",
   "block.borovmod.fig_pressure_plate": "Fig Pressure Plate",
   "block.borovmod.fig_door": "Fig Door",
   "block.borovmod.fig_trapdoor": "Fig Trapdoor",
+
+  "block.borovmod.balkan_rose": "Balkan Rose",
+  "block.borovmod.potted_balkan_rose": "Potted Balkan Rose",
 
 
 
