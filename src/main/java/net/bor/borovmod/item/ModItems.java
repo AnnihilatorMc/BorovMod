@@ -15,7 +15,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> SARMA = ITEMS.register("sarma",
-            () -> new SarmaItem(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).food(ModFoods.SARMA).rarity(Rarity.EPIC)));
+            () -> new SarmaItem(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).food(ModFoods.SARMA)));
 
     public static final RegistryObject<Item> SUROVA_SARMA = ITEMS.register("surova_sarma",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BALKAN_TAB).food(ModFoods.SUROVA_SARMA)));

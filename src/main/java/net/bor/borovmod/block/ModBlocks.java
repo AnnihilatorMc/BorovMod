@@ -8,6 +8,7 @@ import net.bor.borovmod.item.ModCreativeModeTab;
 import net.bor.borovmod.item.ModItems;
 import net.bor.borovmod.world.feature.tree.FigTreeGrower;
 import net.bor.borovmod.world.feature.tree.OliveTreeGrower;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,8 +36,8 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.BALKAN_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_PYROPE_GARNET_ORE = registerBlock("deepslate_pyrope_garnet_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.BALKAN_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 5)), ModCreativeModeTab.BALKAN_TAB);
 
     public static final RegistryObject<Block> PYROPE_GARNET_BLOCK = registerBlock("pyrope_garnet_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
