@@ -4,6 +4,7 @@ import net.bor.borovmod.BorovMod;
 import net.bor.borovmod.block.custom.ModFlammableRotatedPillarBlock;
 import net.bor.borovmod.block.custom.ModFlammableBlocks;
 import net.bor.borovmod.block.custom.ModLeaves;
+import net.bor.borovmod.block.custom.ModOrientableBlock;
 import net.bor.borovmod.item.ModCreativeModeTab;
 import net.bor.borovmod.item.ModItems;
 import net.bor.borovmod.world.feature.tree.FigTreeGrower;
@@ -17,6 +18,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -174,6 +177,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> FIG_SAPLING = registerBlockThatIsAlsoFuel("fig_sapling",
             () -> new SaplingBlock(new FigTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)),
             ModCreativeModeTab.BALKAN_TAB, 200);
+
+    public static final RegistryObject<Block> SARMOLOM = registerBlock("sarmolom",
+            () -> new ModOrientableBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.BALKAN_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {

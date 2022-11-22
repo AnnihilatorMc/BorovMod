@@ -1,0 +1,8 @@
+{
+  "parent": "borovmod:block/orientable",
+  "textures": {
+    "top": "borovmod:block/sarmolom_top",
+    "front": "borovmod:blocks/sarmolom_front",
+    "side": "borovmod:block/sarmolom_side"
+  }
+}
